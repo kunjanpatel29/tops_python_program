@@ -1,0 +1,2 @@
+This is a file w+ mode using python for read & write data.
+Now appended text using r+ method.

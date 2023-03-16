@@ -1,0 +1,27 @@
+s = "Python Programming"
+
+print(s)
+print(s.capitalize())
+print(s.casefold())
+print(s.lower())
+print(s.upper())
+print(s.swapcase())
+print("tops technologies".title())
+print(s.center(40,"*"))
+print(s.count("m"))
+print(s.endswith("ng"))
+print(s.startswith("Py"))
+print(s.find("gra"))
+print(s.index("P",2))
+print("python123".isalnum())
+print("python".isalpha())
+print("123".isalnum())
+print("python 123".isalnum())
+print("123".isnumeric())
+print("Python".isupper())
+print("123".isdigit())
+print(" ".isspace())
+print(s.istitle())
+
+for i in s:
+    print(i, end=" ")
