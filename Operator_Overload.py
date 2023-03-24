@@ -1,7 +1,7 @@
 # Operator Overloading
 
 class Point:
-
+    
     def __init__(self,a,b):
         print("Init Called")
         self.a = a
@@ -15,7 +15,6 @@ class Point:
         a = self.a + obj.a
         b = self.b + obj.b
         return Point(a,b)
-        
 
 p1 = Point(10,20)
 print(p1)
