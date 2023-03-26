@@ -1,4 +1,5 @@
-# Using loop
+# Write a Python program to calculate the length of a string.
+
 # Taken Input from the user
 s = input("Enter a String: ")
 

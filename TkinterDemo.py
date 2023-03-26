@@ -1,8 +1,8 @@
-from tkinter import *       #Tkinter Module
-import mysql.connector      #mysql connector library(pip install mysql-connector-python)
+from tkinter import *       # Tkinter Module
+import mysql.connector      # mysql connector library(pip install mysql-connector-python)
 import tkinter.messagebox as msg
 
-#Connect to database
+# Connect to database
 def create_conn():
     return mysql.connector.connect(
             host="localhost",
@@ -10,8 +10,9 @@ def create_conn():
             password="",
             database="kunjan"
         )
+# print(create_conn()) # Call Function to check code is execute or not
 
-#Inseret data to table in database
+# Inseret data to table in database
 def insert_data():
     if e_fname.get()=="" or e_lname.get()=="" or e_email.get()=="" or e_mobile.get()=="":
         msg.showinfo("Insert Status","All Fields are Mandatory")
@@ -30,12 +31,12 @@ def insert_data():
         msg.showinfo("Insert Status","Data Inserted Successfully")
 
 
-root = Tk()                 #object of Tk Class
-root.geometry("400x380")    #It will Open Page in size of 400x380
-root.title("My Tkinter Demo")  #It will Display Title in web page
+root = Tk()                 # object of Tk Class
+root.geometry("400x380")    # It will Open Page in size of 400x380
+root.title("My Tkinter Demo")  # It will Display Title in web page
 root.resizable(width=False,height=False) # will remove maximize symbol from web page  
 
-#Label Creation and Place in root
+# Label Creation and Place in root
 l_id=Label(root,text="ID",font=("Arial",15))
 l_id.place(x=50,y=50)
 
@@ -51,7 +52,7 @@ l_email.place(x=50,y=200)
 l_mobile=Label(root,text="MOBILE",font=("Arial",15))
 l_mobile.place(x=50,y=250)
 
-#TextField(Entry) Creation
+# TextField(Entry) Creation
 e_id = Entry(root)
 e_id.place(x=200,y=50)
 
@@ -67,7 +68,7 @@ e_email.place(x=200,y=200)
 e_mobile = Entry(root)
 e_mobile.place(x=200,y=250)
 
-#Button Creation
+# Button Creation
 insert=Button(root,text="INSERT",font=("Arial",10),fg="white",bg="black",command=insert_data)
 insert.place(x=50,y=300)
 
