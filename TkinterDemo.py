@@ -37,14 +37,14 @@ def search_data():
     e_email.delete(0,'end')
     e_mobile.delete(0,'end')
     if e_id.get()=="":
-        msg.showinfo("Search Status","Id is Mandatory For Serach")
+        msg.showinfo("Search Status","Id Is Mandatory For Search")
     else:
         conn=create_conn()
         cursor=conn.cursor()
         query="select * from student where id=%s"
         args=(e_id.get(),)
         cursor.execute(query,args)
-        row=cursor.fetchall()
+        row=cursor.fetchall()       # fetch all the data from database
         if row:
             for i in row:
                 e_fname.insert(0,i[1])
@@ -52,13 +52,13 @@ def search_data():
                 e_email.insert(2,i[3])
                 e_mobile.insert(3,i[4])
         else:
-            msg.showinfo("Serach Status","Id Not Found")
+            msg.showinfo("Search Status","Id Not Found")
         conn.close()
 
 # Update Data
 def update_data():
     if e_fname.get()=="" or e_lname.get()=="" or e_email.get()=="" or e_mobile.get()=="" or e_id.get()=="":
-        msg.showmsg("Updata Status","All Fields are Mandatory")
+        msg.showmsg("Update Status","All Fields Are Mandatory")
     else:
         conn=create_conn()
         cursor=conn.cursor()
@@ -67,13 +67,32 @@ def update_data():
         cursor.execute(query,args)
         conn.commit()
         conn.close()
+        e_id.delete(0,'end')
         e_fname.delete(0,'end')    # To Delete Data from TextField only
         e_lname.delete(0,'end')
         e_email.delete(0,'end')
         e_mobile.delete(0,'end')
-        e_id.delete(0,'end')
         msg.showinfo("Update Status","Data Updated Successfully")
-        
+
+# Delete Data
+def delete_data():
+    if e_id.get()=="":
+        msg.showinfo("Delete Status","Id Is Mandatory")
+    else:
+        conn=create_conn()
+        cursor=conn.cursor()
+        query="delete from student where id=%s"
+        args=(e_id.get(),)
+        cursor.execute(query,args)
+        conn.commit()
+        conn.close()
+        e_id.delete(0,'end')
+        e_fname.delete(0,'end')    # To Delete Data from TextField only
+        e_lname.delete(0,'end')
+        e_email.delete(0,'end')
+        e_mobile.delete(0,'end')
+        msg.showinfo("Delete Status","Data Deleted Successfully")
+
 
 root = Tk()                 # object of Tk Class
 root.geometry("400x380")    # It will Open Page in size of 400x380
@@ -122,5 +141,5 @@ search.place(x=110,y=300)
 update=Button(root,text="UPDATE",font=("Arial",10),fg="white",bg="black",command=update_data)
 update.place(x=178,y=300)
 
-delete = Button(root,text="DELETE",font=("Arial",10),fg="white",bg="black")
+delete = Button(root,text="DELETE",font=("Arial",10),fg="white",bg="black",command=delete_data)
 delete.place(x=244,y=300)
