@@ -1,10 +1,10 @@
 from tkinter import *       # Tkinter Module
-import mysql.connector      # mysql connector library(pip install mysql-connector-python)
-import tkinter.messagebox as msg
+import mysql.connector      # mysql connector library(cmd command = pip install mysql-connector-python)
+import tkinter.messagebox as msg  # messagebox is library of tkinter shows the data of written in box
 
 # Connect to database
 def create_conn():
-    return mysql.connector.connect(
+    return mysql.connector.connect(   # It is Function to connect with your mysql database
             host="localhost",
             user="root",
             password="",
@@ -17,14 +17,14 @@ def insert_data():
     if e_fname.get()=="" or e_lname.get()=="" or e_email.get()=="" or e_mobile.get()=="":
         msg.showinfo("Insert Status","All Fields are Mandatory")
     else:
-        conn=create_conn()
+        conn=create_conn()         # Call Function and store into conn object
         cursor=conn.cursor()
         query="Insert into student(fname,lname,email,mobile) values(%s,%s,%s,%s)"
         args=(e_fname.get(),e_lname.get(),e_email.get(),e_mobile.get())
-        cursor.execute(query,args)
-        conn.commit()
+        cursor.execute(query,args) # For Execute your query into mysql
+        conn.commit()              # Use Commit to save your data permanently to a database table
         conn.close()
-        e_fname.delete(0,'end')
+        e_fname.delete(0,'end')    # To Delete Data from TextField only
         e_lname.delete(0,'end')
         e_email.delete(0,'end')
         e_mobile.delete(0,'end')
@@ -34,7 +34,7 @@ def insert_data():
 root = Tk()                 # object of Tk Class
 root.geometry("400x380")    # It will Open Page in size of 400x380
 root.title("My Tkinter Demo")  # It will Display Title in web page
-root.resizable(width=False,height=False) # will remove maximize symbol from web page  
+root.resizable(width=False,height=False) # It will remove maximize symbol from web page  
 
 # Label Creation and Place in root
 l_id=Label(root,text="ID",font=("Arial",15))
