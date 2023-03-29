@@ -143,3 +143,5 @@ update.place(x=178,y=300)
 
 delete = Button(root,text="DELETE",font=("Arial",10),fg="white",bg="black",command=delete_data)
 delete.place(x=244,y=300)
+
+root.mainloop()  # mainloop is a method on the main window which we execute when we want to run our application.
