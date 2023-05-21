@@ -22,7 +22,9 @@ print(x(10,5))
 x = lambda a,b : a * b
 print(x(9,8))
 
+# Lambda Function with List Comprehension
 
-a = lambda : print('Hello World')
-a()
-
+is_even_list = [lambda arg=x: arg * 10 for x in range(1, 5)]
+ 
+for item in is_even_list:
+    print(item())
