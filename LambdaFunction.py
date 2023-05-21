@@ -11,6 +11,9 @@ print(rev_upper(my_str))
 x = lambda a,b : a + b 
 print(x(5,14))
 
+x = lambda a, b, c : a + b + c
+print(x(10, 6, 2))
+
 # Substraction
 x = lambda a,b : a - b
 print(x(10,5))
@@ -18,3 +21,8 @@ print(x(10,5))
 # Multiplication
 x = lambda a,b : a * b
 print(x(9,8))
+
+
+a = lambda : print('Hello World')
+a()
+
