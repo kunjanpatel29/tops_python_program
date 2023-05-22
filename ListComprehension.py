@@ -25,3 +25,15 @@ print(numbers)
 #Using lambda to print table of 10
 numbers = list(map(lambda i : i*10,[i for i in range(1,9)]))
 print(numbers)
+
+
+# Python List Comprehension using If-else.
+lis = ["Even number" if i % 2 == 0
+       else "Odd number" for i in range(8)]
+print(lis)
+
+# Nested IF with List Comprehension
+lis = [num for num in range(100)
+	if num % 5 == 0 if num % 10 == 0]
+print(lis)
+
