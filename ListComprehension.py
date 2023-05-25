@@ -55,3 +55,11 @@ names = ["G", "G", "g"]
 ages = [25, 30, 35]
 person_tuples = [(name, age) for name, age in zip(names, ages)]
 print(person_tuples)
+
+# Map Example
+def addition(n):
+    return n + n
+
+numbers = (1, 2, 3, 4)
+result = map(addition, numbers)
+print(list(result))
