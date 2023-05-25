@@ -41,3 +41,7 @@ print(lis)
 squares = [n**2 for n in range(1, 11)]
 print(squares)
 
+#Toggle the case of each character in a String
+string = 'Kunjan'
+List = list(map(lambda i: chr(ord(i) ^ 32), string))
+print(List)
