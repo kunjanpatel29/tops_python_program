@@ -45,3 +45,7 @@ print(squares)
 string = 'Kunjan'
 List = list(map(lambda i: chr(ord(i) ^ 32), string))
 print(List)
+
+#Reverse each string in a Tuple
+List = [string[::-1] for string in ('Geeks', 'for', 'Geeks')]
+print(List)
