@@ -49,3 +49,9 @@ print(List)
 #Reverse each string in a Tuple
 List = [string[::-1] for string in ('Geeks', 'for', 'Geeks')]
 print(List)
+
+#Creating a list of Tuples from two separate Lists
+names = ["G", "G", "g"]
+ages = [25, 30, 35]
+person_tuples = [(name, age) for name, age in zip(names, ages)]
+print(person_tuples)
