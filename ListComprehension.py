@@ -18,6 +18,10 @@ print(matrix)
 List = [character for character in 'KunjanPatel']
 print(List)
 
+#Using Lambda function inside List
+letters = list(map(lambda x: x, 'human'))
+print(letters)
+
 #Print a Table of 10
 numbers = [i*10 for i in range(1, 6)]
 print(numbers)
