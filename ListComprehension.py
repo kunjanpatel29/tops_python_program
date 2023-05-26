@@ -75,3 +75,8 @@ numbers2 = [4, 5, 6]
 result = map(lambda x, y: x + y, numbers1, numbers2)
 print(list(result))
 
+# List of strings
+l = ['sat', 'bat', 'cat', 'mat']
+test = list(map(list, l))
+print(test)
+
