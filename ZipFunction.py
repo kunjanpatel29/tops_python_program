@@ -10,3 +10,10 @@ ages = [23, 24, 27]
 
 for i, (name,age) in enumerate(zip(names,ages)):
     print(i,name,age)
+
+#Python zip() with Tuple
+tuple1 = (1, 2, 3)
+tuple2 = ('a', 'b', 'c')
+zipped = zip(tuple1, tuple2)
+result = list(zipped)
+print(result)
