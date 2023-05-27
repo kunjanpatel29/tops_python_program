@@ -17,3 +17,11 @@ tuple2 = ('a', 'b', 'c')
 zipped = zip(tuple1, tuple2)
 result = list(zipped)
 print(result)
+
+#Python zip() with Multiple Iterables
+list1 = [1, 2, 3]
+list2 = ['a', 'b', 'c']
+list3 = ['x', 'y', 'z']
+zipped = zip(list1, list2, list3)
+result = list(zipped)
+print(result)
