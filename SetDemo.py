@@ -34,3 +34,11 @@ print("Intersection is : ",c)
 c=a.difference(b)       # Return a set that contains the items that only exist in set a, and not in set b
 print("Difference is : ",c)
 
+c=a.issubset(b)        # Return True if all items in set a are present in set b
+print(c)
+
+c=a.symmetric_difference(b)
+print("Symmetric Difference : ",c)
+
+a.update(b)           # Insert the items from set b into set a
+print("Update : ",a)
