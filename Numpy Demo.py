@@ -23,3 +23,23 @@ print("Size of array: ", arr.size)
 
 # Printing type of elements in array
 print("Array stores elements of type: ", arr.dtype)
+
+# Get the first array from the array
+print(arr[0])
+
+# Get the 3rd element on 2nd row
+print('3rd element on 2nd row: ', arr[1, 2])
+
+
+myarr = np.array([1,2,3,4,5,6,7,8])
+#Slice elements from index 1 to index 5
+print(myarr[1:5])
+
+#Slice elements from index 3 to the end of the array
+print(myarr[3:])
+
+#Slice elements from the beginning to index 4(Not Included)
+print(myarr[:4])
+
+# Addition
+print(myarr[2] + myarr[5])
