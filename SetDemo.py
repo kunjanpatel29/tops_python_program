@@ -42,3 +42,11 @@ print("Symmetric Difference : ",c)
 
 a.update(b)           # Insert the items from set b into set a
 print("Update : ",a)
+
+#Type Casting with Python Set method
+myset=set(["a","b","c"])
+print(myset)
+
+# Adding element to the set
+myset.add("d")
+print(myset)
