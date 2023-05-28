@@ -25,7 +25,7 @@ print("Size of array: ", arr.size)
 print("Array stores elements of type: ", arr.dtype)
 
 # Get the first array from the array
-print(arr[0])
+print("Get the First array : ",arr[0])
 
 # Get the 3rd element on 2nd row
 print('3rd element on 2nd row: ', arr[1, 2])
@@ -33,13 +33,19 @@ print('3rd element on 2nd row: ', arr[1, 2])
 
 myarr = np.array([1,2,3,4,5,6,7,8])
 #Slice elements from index 1 to index 5
-print(myarr[1:5])
+print("Slice elements from index 1 to index 5 : ",myarr[1:5])
 
 #Slice elements from index 3 to the end of the array
-print(myarr[3:])
+print("Slice elements from index 3 to the end of the array : ",myarr[3:])
 
 #Slice elements from the beginning to index 4(Not Included)
-print(myarr[:4])
+print("Slice elements from the beginning to index 4 : ",myarr[:4])
+
+# Negative Slicing
+print("Slice from the index 4 from the end to index 1 : ",myarr[-4:-1])
+
+#Use Step
+print("Return every other element from index 1 to index 5 : ",myarr[1:5:2])
 
 # Addition
-print(myarr[2] + myarr[5])
+print("Addition Element from Array : ",myarr[2] + myarr[5])
