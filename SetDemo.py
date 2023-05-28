@@ -25,10 +25,12 @@ print(s)
 a={1,2,3,4,5}
 b={4,5,6,7,8}
 
-c=a.union(b)
+c=a.union(b)            # Return a set that contains all items from both sets
 print("Union is : ",c)
 
-c=a.intersection(b)
+c=a.intersection(b)     # Return a set that contains items that exist in both sets
 print("Intersection is : ",c)
 
+c=a.difference(b)       # Return a set that contains the items that only exist in set a, and not in set b
+print("Difference is : ",c)
 
