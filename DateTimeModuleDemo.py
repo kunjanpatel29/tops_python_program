@@ -11,3 +11,15 @@ print("Current Year : ",today.year)
 print("Current Month : ",today.month)
 print("Current Day : ",today.day)
 
+
+# Import Datetime Module
+from datetime import time
+
+# creating a time object
+Time=time(9,29,45)
+
+#Get hours, minutes, seconds, and microseconds
+print("\n\nhour =", Time.hour)
+print("minute =", Time.minute)
+print("second =", Time.second)
+print("microsecond =", Time.microsecond)
