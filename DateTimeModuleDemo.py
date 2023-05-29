@@ -23,3 +23,14 @@ print("\n\nhour =", Time.hour)
 print("minute =", Time.minute)
 print("second =", Time.second)
 print("microsecond =", Time.microsecond)
+
+
+#Print Current date and time
+from datetime import datetime
+
+# Call now() function
+today = datetime.now()
+print("Current date and time is : ",today)
+
+
+
