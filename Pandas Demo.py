@@ -14,3 +14,11 @@ print(df)
 df.to_csv('data.csv')
 
 df.to_csv('data_index_false.csv',index=False)
+
+# Display First Two row
+print("\n",df.head(2))
+
+# Display Last Two row
+print(df.tail(2))
+
+print("\n",df.describe())
