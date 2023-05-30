@@ -22,3 +22,13 @@ print("\n",df.head(2))
 print(df.tail(2))
 
 print("\n",df.describe())
+
+# Creating empty series
+ser = pd.Series()
+print(ser)
+ 
+# simple array
+data = np.array(['K', 'U', 'N', 'J', 'A','N'])
+   
+ser = pd.Series(data)
+print(ser)
