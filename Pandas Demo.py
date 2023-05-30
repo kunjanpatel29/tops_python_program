@@ -3,9 +3,14 @@ import pandas as pd
 
 dict1={
     "name":['Kunjan','Sanjay','Palak','Meet'],
-    "marks":[90,85,78,65]
+    "marks":[90,85,78,65],
+    "city":['Ahmedabad','Chennai ','Kolkata','Delhi ']
     }
 
 # Calling DataFrame constructor on Dictionary
 df=pd.DataFrame(dict1)
 print(df)
+
+df.to_csv('data.csv')
+
+df.to_csv('data_index_false.csv',index=False)
