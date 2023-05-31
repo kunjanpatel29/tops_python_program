@@ -40,7 +40,9 @@ print(myvar)
 print(myvar[0])
 
 ser=pd.Series(np.random.rand(34))
-print(ser)
+print("\n",ser)
 print(type(ser))
 
+print(df.dtypes)
+print(df.columns)
 
