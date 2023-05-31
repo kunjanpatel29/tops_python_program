@@ -39,4 +39,8 @@ myvar = pd.Series(a, index = ["x", "y", "z"])
 print(myvar)
 print(myvar[0])
 
+ser=pd.Series(np.random.rand(34))
+print(ser)
+print(type(ser))
+
 
