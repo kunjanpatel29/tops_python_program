@@ -17,3 +17,11 @@ print(next(myit))
 print(next(myit))
 print(next(myit))
 print(next(myit))
+
+#Looping Through an Iterator
+
+# Iterate the values of a tuple:
+mytuple = ("Kunjan","Vikas","Sanjay","Prashant")
+
+for x in mytuple:
+  print(x)
