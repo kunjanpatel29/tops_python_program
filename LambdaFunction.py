@@ -51,3 +51,7 @@ print(final_list)
 animals = ['dog', 'cat', 'parrot', 'rabbit']
 uppered_animals = list(map(lambda animal: animal.upper(), animals))
 print(uppered_animals)
+
+# Return Cube of a Number
+lambda_cube = lambda y: y*y*y
+print("The Value of Cube is : ", lambda_cube(5))
