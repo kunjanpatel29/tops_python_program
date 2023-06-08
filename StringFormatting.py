@@ -25,4 +25,7 @@ print(f"My name is {name}.")
 num1 = 10
 num2 = 9
 print(f"Addition of num1 and num2 is {num1 + num2}")
+print(f"Multiplication num1 and num2 is {num1 * num2}")
+
+print(f"Square of Number is {(lambda x:x**2)(5)}")
 
