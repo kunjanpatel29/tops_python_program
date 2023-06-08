@@ -29,3 +29,7 @@ print(f"Multiplication num1 and num2 is {num1 * num2}")
 
 print(f"Square of Number is {(lambda x:x**2)(5)}")
 
+# Using Input In F-Strings
+name = input("Enter Your Name : ")
+age = int(input("Enter Your Age : "))
+print(f"My name is {name} and I'am {age} Year's Old")
