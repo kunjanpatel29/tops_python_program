@@ -17,3 +17,12 @@ x = 'looked'
 print("Kunjan %s and %s around" %('walked',x))
 print("I am %d Year's Old" %23)
 print('Floating point numbers: %1.0f' %(13.144))
+
+# Method 3: Formatted String using F-strings
+name = 'Kunjan'
+print(f"My name is {name}.")
+
+num1 = 10
+num2 = 9
+print(f"Addition of num1 and num2 is {num1 + num2}")
+
