@@ -1,4 +1,5 @@
 # Half pyramid using alphabets
+
 n = int(input("Enter Number of Rows : "))
 value = 65
 for i in range(n):
