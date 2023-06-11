@@ -6,7 +6,6 @@ my_str = "kunjan patel"
 rev_upper = lambda string : string.upper()[::-1]
 print(rev_upper(my_str))
 
-
 # Addition
 x = lambda a,b : a + b 
 print(x(5,14))
