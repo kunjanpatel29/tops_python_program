@@ -12,4 +12,8 @@ print(x)
 x = pow(5, 3)  # return the value of x to the power of y
 print(x)
 
+# Import math Module
+import math
+x = math.sqrt(81)  # Returns a Square root of a Number
+print("Square Root of a Number is : ",x)
 
