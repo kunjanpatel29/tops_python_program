@@ -25,3 +25,15 @@ list3 = ['x', 'y', 'z']
 zipped = zip(list1, list2, list3)
 result = list(zipped)
 print(result)
+
+# Example of unzip the values using zip
+names = ['Kunjan', 'Rohit', 'Sagar']
+ages = [23, 24, 27]
+
+result = zip(names,ages)
+resultlist = list(result)
+print(resultlist)
+
+c, v =  zip(*resultlist)  
+print('c =', c)  
+print('v =', v)  
