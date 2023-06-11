@@ -31,3 +31,16 @@ mystr = "Python"
 
 for x in mystr:
   print(x)
+
+# Return an iterator from a list, and print each value
+mylist = [10,20,"Kunjan",5.4,30,"Python"]
+myit = iter(mylist)
+
+print("\n")
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+
