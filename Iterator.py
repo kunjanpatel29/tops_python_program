@@ -44,3 +44,9 @@ print(next(myit))
 print(next(myit))
 print(next(myit))
 
+#Looping Through an Iterator
+# Iterate the values of a List
+mylist = [10,20,"Kunjan",5.4,30,"Python"]
+
+for x in mylist:
+  print(x)
