@@ -1,4 +1,13 @@
-# Operator Precedence : It can Used for order of operations.
+""" Operator Precedence(PEMDAS) : Operator precedence in Python simply refers to the order of
+operations. Operators are used to perform operations on variables and values.
+
+P - Parentheses
+E - Exponentiation
+M - Multiplication
+D - Division
+A - Addition
+S - Substraction
+"""
 
 print(4+3)
 
