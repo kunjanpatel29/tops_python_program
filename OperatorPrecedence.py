@@ -39,3 +39,11 @@ print(True or False and True)
 print(0 or "Python" and 1)
 print(1 and "Python" or 5)
 print(5 or 6 and 9)
+
+print(3 * 5 // 4)
+print(3 * (5//4))
+print(10-5)/5
+
+print((3**2)**2)
+print(2**3**2)
+print(45 % 10 / 2)
