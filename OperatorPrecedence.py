@@ -32,3 +32,10 @@ print(10 or True)
 
 print(20 and 30)
 print(20 or 30)
+
+print(True and False or True)
+print(True or False and True)
+
+print(0 or "Python" and 1)
+print(1 and "Python" or 5)
+print(5 or 6 and 9)
