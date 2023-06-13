@@ -26,3 +26,9 @@ print( ((((13+5)*2)-4)/2)-13 )
 print(10 % 5 / 3 - 5)
 print(10 % 2 // 3 - 5)
 print(8 / 2 + 4 - 1)
+
+print(9 and True)
+print(10 or True)
+
+print(20 and 30)
+print(20 or 30)
