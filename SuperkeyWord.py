@@ -29,7 +29,12 @@ class Employee:
 class Programmer(Employee):
 
     def __init__(self,name,id,lang):
-        self.name = name
-        self.id = id
+        super().__init__(name,id)
         self.lang = lang
-    
+
+emp = Employee("Kunjan","29")
+pgm = Programmer("ABC","123","Python")
+
+print(pgm.name)
+print(pgm.id)
+print(pgm.lang)
