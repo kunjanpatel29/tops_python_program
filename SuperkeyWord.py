@@ -1,6 +1,6 @@
 # Example of SuperKeyword
 
-class ParentClass:
+""" class ParentClass:
 
     def parent_method(self):
         print("This is a parent method")
@@ -18,3 +18,18 @@ class ChildClass(ParentClass):
 obj = ChildClass()
 obj.child_method()
 obj.parent_method()
+"""
+
+class Employee:
+
+    def __init__(self,name,id):
+        self.name = name
+        self.id = id
+
+class Programmer(Employee):
+
+    def __init__(self,name,id,lang):
+        self.name = name
+        self.id = id
+        self.lang = lang
+    
