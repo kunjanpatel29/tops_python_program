@@ -17,5 +17,7 @@ start_dt = datetime.date(2023, 5, 1)
 end_dt = datetime.date(2023, 6, 1)
 time_between_dates = end_dt - start_dt
 days_between_dates = time_between_dates.days
-
+random_number_of_days = random.randrange(days_between_dates)
+random_date = start_dt + datetime.timedelta(days=random_number_of_days)
+print(random_date)
 
