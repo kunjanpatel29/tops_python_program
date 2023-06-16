@@ -26,3 +26,12 @@ def fun(country = "India"):
 fun("Brazil")
 fun()
 fun("USA")
+
+# Passing a List as an Argument
+def my_function(car):
+  for x in car:
+    print(x)
+
+cars = ["Swift","BMW","Audi"]
+
+my_function(cars)
