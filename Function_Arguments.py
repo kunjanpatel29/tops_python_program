@@ -35,3 +35,18 @@ def my_function(car):
 cars = ["Swift","BMW","Audi"]
 
 my_function(cars)
+
+# Return Values
+def myfun(x):
+    return 5 * x
+
+print(myfun(5))
+print(myfun(3))
+
+# Positional Arguments
+def fun(name,age):
+    print("My name is : ",name)
+    print("My age is : ",age)
+
+fun("Kunjan",23) # Correct
+fun(29,"Sarthak") # Incorrect
