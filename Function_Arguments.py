@@ -4,3 +4,10 @@ def fun(fname):
 
 fun("Kunjan")
 fun("Sanjay")
+
+# Number of Arguments
+def my_function(fname, lname):
+  print(fname + " " + lname)
+
+my_function("Kunjan", "Patel")
+fun("Sanajy")
