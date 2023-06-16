@@ -19,3 +19,10 @@ def student_detail(name,rollno,department):
 
 student_detail(department="IT",name="Kunjan",rollno=29)
 
+# Default Argument: If we call the function without argument, it uses the default value
+def fun(country = "India"):
+    print("I am from " + country)
+
+fun("Brazil")
+fun()
+fun("USA")
