@@ -68,3 +68,11 @@ num3 = 2
  
 max_val = max(num1, num2, num3)
 print("Max Value is : ",max_val)
+
+# Finding the maximum of 3 string variables
+var1 = "kunjan"
+var2 = "for"
+var3 = "kunj"
+
+max_val = max(var1, var2, var3)
+print(max_val)
