@@ -49,4 +49,13 @@ print(l)
 
 for i in l:
     print(i)
-print(201 in l) 
+print(201 in l)
+
+# minimum item in list
+print("Minimun Item in list is : ",min([1,2,3,4,5]))
+ 
+# minimum item in dict
+print("Minimun Item in Dictionary is : ",min({'a': 1, 'b': 2, 'c': 3}))
+ 
+# minimum item in tuple
+print("Minimun Item in Tuple is : ",min((7, 9, 11)))
