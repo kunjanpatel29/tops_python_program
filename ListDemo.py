@@ -59,3 +59,12 @@ print("Minimun Item in Dictionary is : ",min({'a': 1, 'b': 2, 'c': 3}))
  
 # minimum item in tuple
 print("Minimun Item in Tuple is : ",min((7, 9, 11)))
+
+
+#Finding the maximum of 3 integer variables
+num1 = 4
+num2 = 8
+num3 = 2
+ 
+max_val = max(num1, num2, num3)
+print("Max Value is : ",max_val)
