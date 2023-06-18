@@ -60,7 +60,6 @@ print("Minimun Item in Dictionary is : ",min({'a': 1, 'b': 2, 'c': 3}))
 # minimum item in tuple
 print("Minimun Item in Tuple is : ",min((7, 9, 11)))
 
-
 #Finding the maximum of 3 integer variables
 num1 = 4
 num2 = 8
@@ -75,4 +74,13 @@ var2 = "for"
 var3 = "kunj"
 
 max_val = max(var1, var2, var3)
-print(max_val)
+print("Max Value of String is : ",max_val)
+
+# maximum item in list
+print("Maximum Item in list is : ",max([1,2,3,4,5]))
+ 
+# maximum item in dict
+print("Maximum Item in Dictionary is : ",max({'a': 1, 'b': 2, 'c': 3}))
+ 
+# maximum item in tuple
+print("Maximum Item in Tuple is : ",max((11,29,19)))
