@@ -1,4 +1,6 @@
-d = {}
+# Square of a Number
+
+d = {}  # Create Dictionary
 n = int(input("Enter Number: "))
 
 for i in range(1,n+1):

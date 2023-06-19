@@ -1,4 +1,4 @@
-# Count Word,Special Character,Character & Space Program
+# Count Total Word,Special Character,Character & Space,digit Program in Python.
 
 my_str = input("Enter a String : ")
 
