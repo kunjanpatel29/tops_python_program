@@ -24,3 +24,12 @@ today = date.today()
 print("Current year:", today.year)
 print("Current month:", today.month)
 print("Current day:", today.day)
+
+# Print hour, minute, second and microsecond
+from datetime import time
+
+a = time(11,18,34)
+print("Hour =", a.hour)
+print("Minute =", a.minute)
+print("Second =", a.second)
+print("Microsecond =", a.microsecond)
