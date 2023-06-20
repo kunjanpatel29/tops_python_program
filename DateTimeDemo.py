@@ -33,3 +33,14 @@ print("Hour =", a.hour)
 print("Minute =", a.minute)
 print("Second =", a.second)
 print("Microsecond =", a.microsecond)
+
+# Timedelta
+from datetime import timedelta, datetime
+ 
+present_date = datetime.now()
+ 
+print("Present Date :", present_date)
+ 
+# coming date after 10 days
+ten_days_after= present_date + timedelta(days = 10)
+print('Date after 10 days :',ten_days_after)
