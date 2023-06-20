@@ -15,3 +15,12 @@ print(c_date)
 import datetime
 c_date = datetime.date(2023,6,20)
 print(c_date)
+
+# Print today's year, month and day
+from datetime import date
+
+today = date.today() 
+
+print("Current year:", today.year)
+print("Current month:", today.month)
+print("Current day:", today.day)
