@@ -20,3 +20,11 @@ print(date)
 # Fourth Format
 date = now.strftime("%b-%d-%Y")
 print(date)
+
+# Fifth Format
+date = now.strftime("%B %d,%Y")
+print(date)
+
+
+s1 = now.strftime("%m/%d/%Y, %H:%M:%S")
+print("s1:", s1)
