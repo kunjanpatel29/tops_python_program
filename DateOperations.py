@@ -38,5 +38,18 @@ print("day:", day)
 s1 = now.strftime("%m/%d/%Y, %H:%M:%S")
 print("s1:", s1)
 
+# Sixth Format
+week_day = now.strftime("%A")
+print(week_day)
 
+# Seven Format
+week_day_name = now.strftime("%a")
+print(week_day_name)
 
+# Eight Format
+week_day_decimal = now.strftime("%w")
+print(week_day_decimal)
+
+# Nineth Format
+hour_decimal = now.strftime("%H")
+print(hour_decimal)
