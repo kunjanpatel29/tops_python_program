@@ -12,3 +12,11 @@ print(date)
 # Second Format
 date = now.strftime("%m/%d/%y")
 print(date)
+
+# Third Format
+date = now.strftime("%b-%d-%y")
+print(date)
+
+# Fourth Format
+date = now.strftime("%b-%d-%Y")
+print(date)
