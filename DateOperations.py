@@ -25,6 +25,18 @@ print(date)
 date = now.strftime("%B %d,%Y")
 print(date)
 
+year = now.strftime("%Y")
+print("year:", year)
 
+month = now.strftime("%m")
+print("month:", month)
+
+day = now.strftime("%d")
+print("day:", day)
+
+# Format with hour,minute and seconds
 s1 = now.strftime("%m/%d/%Y, %H:%M:%S")
 print("s1:", s1)
+
+
+
