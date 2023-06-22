@@ -11,7 +11,6 @@ my_dict = {k:v for (k,v) in zip(keys,values)}
 print(my_dict)
 
 #Using fromkeys() Method
-
 d = dict.fromkeys(range(5),True)
 print(d)
 
@@ -34,3 +33,9 @@ key = ['j', 'k', 'l', 'm', 'n', 'o']
 value = [34, 54, 13, 76, 98, 74]  
 d = dict (zip (key, value))  
 print ("dict is : ",d)   
+
+# Program : if a value is divisible by 6 then return True
+lst = [12,5,18,36,20,56]
+result = [True if x % 6 == 0 else False for x in lst]
+#print(any(result))
+print(all(result))
