@@ -25,3 +25,12 @@ print(d)
 # Using conditional statements in dictionary comprehension
 my_dict = {x: x**3 for x in range(10) if x**3 % 4 == 0}
 print(my_dict)
+
+# Square of a Number
+square_dict = {num: num*num for num in range(1, 11)}
+print(square_dict)
+
+key = ['j', 'k', 'l', 'm', 'n', 'o']  
+value = [34, 54, 13, 76, 98, 74]  
+d = dict (zip (key, value))  
+print ("dict is : ",d)   
