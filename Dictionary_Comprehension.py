@@ -18,3 +18,10 @@ print(d)
 # Using dictionary comprehension make dictionary
 dic = {x:x**2 for x in range(1,6)}
 print(dic)
+
+d = {x.upper(): x*3 for x in "python"}
+print(d)
+
+# Using conditional statements in dictionary comprehension
+my_dict = {x: x**3 for x in range(10) if x**3 % 4 == 0}
+print(my_dict)
