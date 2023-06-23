@@ -22,3 +22,9 @@ result = {x:x ** 3 for x in lst if x % 2 != 0}
 print(result)
 
 # Example 2
+name = {"Kunjan","Sanjay","Umang","Jay"}
+age = {23,25,24,22}
+
+d = {key:value for key,value in zip(name,age)}
+
+print(d)
