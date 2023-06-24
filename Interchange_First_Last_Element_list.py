@@ -13,3 +13,15 @@ def SwapList(lst):
 	
 lst = [12, 35, 9, 56, 24]
 print(SwapList(lst))
+
+
+# Swap function
+def SwapList(lst):
+	
+	lst[0], lst[-1] = lst[-1], lst[0]
+
+	return lst
+	
+# Driver code
+lst = [12, 35, 9, 56, 24]
+print(SwapList(lst))
