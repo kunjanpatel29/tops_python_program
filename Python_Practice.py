@@ -16,4 +16,9 @@ print(l)
 #l.pop()     # Using pop Method
 #print(l)
 
+#del l[-1]   # Using del keyword
+#print(l)
+
+#a = l[:-1]  # Using Slicing
+#print(a)
 
