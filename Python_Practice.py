@@ -6,3 +6,14 @@ print(id(l2))
 l2.remove(4)
 print(l1)
 print(l2)
+
+
+# Ways to Remove Last Element From List
+l = [10,20,5,15,30,40]
+l.remove(40)  # Using remove Method
+print(l)
+
+#l.pop()     # Using pop Method
+#print(l)
+
+
