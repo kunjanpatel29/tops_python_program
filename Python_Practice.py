@@ -22,3 +22,15 @@ print(l)
 #a = l[:-1]  # Using Slicing
 #print(a)
 
+# Find Second Smallest Number in list
+lst = [1,1,3,2]
+l = list(set(lst))  #Use Set for remove duplicate value
+print(l)   
+print(l[1])  # Return Second Smallest Number
+
+# Find Second Largest Number in list
+lst = [1,1,3,2,5,9,8]
+l = list(set(lst))
+print(l)
+print(l[-2])
+
