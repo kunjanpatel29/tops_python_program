@@ -8,5 +8,5 @@ for i in my_list:
 
 lst = [1,2,3,4,5]
 
-a = " ".join(str(lst))
+a = " ".join(str(i) for i in lst)
 print(a)
