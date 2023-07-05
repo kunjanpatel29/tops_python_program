@@ -12,3 +12,9 @@ for i in lst:
 
 print(lst)
 print(lst1)
+
+
+# Using Set
+lst = [1,2,3,4,2,2,3,4,5,6,1,2]
+result = set(lst)
+print(result)
