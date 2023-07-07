@@ -8,4 +8,8 @@ print("Original list", my_list)
 my_list = list(set(my_list))
 print("unique list", my_list)
 
+t = tuple(my_list)
+print("tuple ", t)
 
+print("Minimum number is: ", min(t))
+print("Maximum number is: ", max(t))
