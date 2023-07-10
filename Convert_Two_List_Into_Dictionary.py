@@ -25,3 +25,6 @@ print("Resultant dictionary is : " + str(result))
 keys = ["abc", "pqr", "bcd"]
 values = [1, 4, 5]
 
+print("Dictionary Comprehension : ")
+result = {keys[i]: values[i] for i in range(len(keys))}
+print(result)
