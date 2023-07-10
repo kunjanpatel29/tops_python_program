@@ -19,3 +19,9 @@ for key in keys:
 
 # Printing resultant dictionary
 print("Resultant dictionary is : " + str(result))
+
+
+#  Using dictionary comprehension
+keys = ["abc", "pqr", "bcd"]
+values = [1, 4, 5]
+
