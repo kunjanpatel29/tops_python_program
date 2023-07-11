@@ -42,3 +42,10 @@ print(lst[:-3])
 
 lst[0:2] =  'e'
 print(lst)
+
+# Dictionary
+my_dict = {'a':1,'b':2,'c':3,'d':4}
+print(my_dict)
+
+print(my_dict.keys())
+print(my_dict.values())
