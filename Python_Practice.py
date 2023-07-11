@@ -34,3 +34,8 @@ l = list(set(lst))
 print(l)
 print(l[-2])
 
+#Lsit Slicing
+lst = ['a', 'b', 'c', 'd']
+print(lst[1:-1])
+print(lst[-3:])
+print(lst[:-3])
