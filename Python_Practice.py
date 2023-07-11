@@ -55,3 +55,7 @@ for i in my_dict.items():
     print(i)
 
 print(my_dict['b'])  # Get Value for key
+
+print(my_dict['f'])  # If given key is not present then raise error
+print(my_dict.get('f'))  # If given key is not preset then not raise error return None
+
