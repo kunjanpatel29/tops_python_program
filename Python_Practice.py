@@ -49,3 +49,9 @@ print(my_dict)
 
 print(my_dict.keys())
 print(my_dict.values())
+
+print(my_dict.items())
+for i in my_dict.items():
+    print(i)
+
+print(my_dict['b'])  # Get Value for key
