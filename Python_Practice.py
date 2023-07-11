@@ -39,3 +39,6 @@ lst = ['a', 'b', 'c', 'd']
 print(lst[1:-1])
 print(lst[-3:])
 print(lst[:-3])
+
+lst[0:2] =  'e'
+print(lst)
