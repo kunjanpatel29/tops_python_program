@@ -56,6 +56,14 @@ for i in my_dict.items():
 
 print(my_dict['b'])  # Get Value for key
 
-print(my_dict['f'])  # If given key is not present then raise error
+#print(my_dict['f'])  # If given key is not present then raise error
 print(my_dict.get('f'))  # If given key is not preset then not raise error return None
 
+
+d = 'a'+ '[a + b + c]'
+print(d)
+
+lst = [1,2,3,4]
+lst1 = ['a','b','c']
+result = lst+lst1
+print(result)
