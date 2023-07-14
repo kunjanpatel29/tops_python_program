@@ -67,3 +67,9 @@ lst = [1,2,3,4]
 lst1 = ['a','b','c']
 result = lst+lst1
 print(result)
+
+print((2) ** 3)
+#print((2,) ** 3)
+print([] * 3)
+#print({} * 3)
+print(() * 3)
