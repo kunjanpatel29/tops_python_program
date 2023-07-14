@@ -73,3 +73,11 @@ print((2) ** 3)
 print([] * 3)
 #print({} * 3)
 print(() * 3)
+
+# Generate Error
+lst = ['x','y','z','w'] + "ab"
+print(lst)
+
+# Not Generate Error
+lst += "ab"
+print(lst)
