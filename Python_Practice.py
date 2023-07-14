@@ -86,3 +86,10 @@ print(lst)
 mystr = "Hello How Are You"
 print(mystr[6:9])
 print(mystr.replace(" ",""))
+
+# Print string each word first letter
+words = mystr.split()
+print(words)
+for word in words:
+    print(word[0],end="")
+print()
