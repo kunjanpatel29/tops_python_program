@@ -75,9 +75,14 @@ print([] * 3)
 print(() * 3)
 
 # Generate Error
-lst = ['x','y','z','w'] + "ab"
-print(lst)
+#lst = ['x','y','z','w'] + "ab"
+#print(lst)
 
 # Not Generate Error
 lst += "ab"
 print(lst)
+
+# String Example
+mystr = "Hello How Are You"
+print(mystr[6:9])
+print(mystr.replace(" ",""))
