@@ -115,5 +115,12 @@ for i in range(1,nums+1):
 		print("*",end="")
 	print()
 
+# Pyramid Another Pattern(star)
+nums = int(input("Enter the Number of rows : "))
+for i in range(nums,0,-1):
+	for j in range(i):
+		print("*",end="")
+	print()
+
 
 
