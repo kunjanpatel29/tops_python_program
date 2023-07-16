@@ -140,3 +140,15 @@ print(result)
 lst = [85, 104, 101, 109, 125, 103, 113, 114, 85, 101, 109, 111, 114]
 result = "".join(chr(i) for i in lst)
 print(result)
+
+# count character occurence of string
+mystr = input("Enter a String : ")
+
+d = {}
+for i in mystr:
+	if i in d:
+		d[i] += 1
+	else:
+		d[i] = 1
+
+print(d)
