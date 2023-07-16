@@ -130,3 +130,8 @@ for i in lst:
 	result = result + chr(i) 
 
 print(result)
+
+# Using Map
+lst = [85, 104, 101, 109, 125, 103, 113, 114, 85, 101, 109, 111, 114]
+result = "".join(map(chr,lst))
+print(result)
