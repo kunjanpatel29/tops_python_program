@@ -122,5 +122,11 @@ for i in range(nums,0,-1):
 		print("*",end="")
 	print()
 
+# Convert list of Number to ascii Character
+lst = [85, 104, 101, 109, 125, 103, 113, 114, 85, 101, 109, 111, 114]
 
+result = " "
+for i in lst:
+	result = result + chr(i) 
 
+print(result)
