@@ -135,3 +135,8 @@ print(result)
 lst = [85, 104, 101, 109, 125, 103, 113, 114, 85, 101, 109, 111, 114]
 result = "".join(map(chr,lst))
 print(result)
+
+# Using Join and List Comprehension
+lst = [85, 104, 101, 109, 125, 103, 113, 114, 85, 101, 109, 111, 114]
+result = "".join(chr(i) for i in lst)
+print(result)
